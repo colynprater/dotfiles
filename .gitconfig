@@ -1,0 +1,11 @@
+[user]
+	email = cprater@thefrontiergroup.com.au
+	name = Colyn Prater
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/mrscherylmaroni/.gitignore_global
